@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+    <link href="src/styles.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body>
+    <h1>
+      <nav class="navbar navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand">Fresh Weather</a>
+          <form class="d-flex">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </nav>
+    </h1>
+
+    <div class="card mb-3">
+      <div class="position-absolute top-50 start-50 translate-middle"></div>
+      <img src="img/sunny.png" class="card-img-top" style="max-width: 30%;" />
+      <div class="card-img-overlay">
+      <div class="card-body">
+          <h2 class="card-title" style="text-align: center">Now</h2>
+          <h2 class="card-title" style="text-align: center">49</h2>
+        <h5 class="card-title" style="text-align: center ">Austin, TX</h5>
+        <p class="card-text" style="text-align: center;">
+          Partly Cloudy
+        </p>
+        <p class="card-sub-text fw-light lh-1" style="text-align: center;" > Precipitation: 0% 
+        </p>
+        <p class="card-sub-text fw-light lh-1" style="text-align: center;" > Humidity: 76%
+          </p>
+          <p class="card-sub-text fw-light lh-1" style="text-align: center;" > Wind: 3mph
+            </p>
+      </div>
+    </div>
+
+    <div class="card-group sm-2" style="max-width: 50rem; text-align: center;">
+      <div class="card">
+        <img src="img/sunny.png" class="card-img-top" alt="" />
+        <div class="card-body">
+          <h5 class="card-title">Monday</h5>
+          <p class="card-text">
+            71 43
+          </p>
+          <p class="card-text">
+            <small class="text-muted">Last updated 3 mins ago</small>
+          </p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="img/sunny.png" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">Tuesday</h5>
+          <p class="card-text">
+            72 50
+          </p>
+          <p class="card-text">
+            <small class="text-muted">Last updated 3 mins ago</small>
+          </p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="img/sunny.png" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">Wednesday</h5>
+          <p class="card-text">
+            72 53
+          </p>
+          <p class="card-text">
+            <small class="text-muted">Last updated 3 mins ago</small>
+          </p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="img/sunny.png" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">Thursday</h5>
+          <p class="card-text">
+            75 58
+          </p>
+          <p class="card-text">
+            <small class="text-muted">Last updated 3 mins ago</small>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <script src="src/index.js"></script>
+  </body>
+</html>
